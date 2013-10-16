@@ -1,0 +1,10 @@
+.subscription
+  = render subscription.pull_request
+  - if subscription.pull_request.merged?
+    %p
+      This pull request has been merged and the watch can be safely removed.
+    %p
+      = button_to "Remove", subscription_path(subscription.id), method: :delete, class: %w{btn}
+  - else
+    %p
+      = button_to "Remove", subscription_path(subscription.id), method: :delete, class: %w{btn btn-danger}

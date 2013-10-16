@@ -1,0 +1,10 @@
+Pull Requests merged
+
+Some pull requests have been recently merged on GitHub:
+
+<% @pull_requests.each do |pull_request| %>
+  <%= "##{pull_request.number}" %> <%= pull_request.title %>
+  <%= pull_request.html_url %>
+<% end %>
+
+Enjoy!

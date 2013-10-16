@@ -1,0 +1,8 @@
+%h2 Add a Pull Request
+
+%p Visit GitHub.com and copy the URL of the pull request you want to monitor.
+= form_tag subscriptions_path, method: :post, class: %w{form-inline} do
+  = field_set_tag do
+    = label_tag :url, 'Pull Request URL:'
+    = url_field_tag :url, nil, size: 60, placeholder: 'https://github.com/resque/resque/pull/1135'
+    = submit_tag 'Add', class: %w{btn btn-primary}

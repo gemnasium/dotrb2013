@@ -1,0 +1,10 @@
+.pull_request
+  %h3= pull_request.short_name
+  - if pull_request.has_metadata?
+    %h4= pull_request.title
+    = pull_request.body
+    %a{href: pull_request.html_url}
+      Read on GitHub
+  - else
+    .url= pull_request.url
+    .notice loading...

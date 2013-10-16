@@ -1,0 +1,10 @@
+%h1 Pull Requests merged
+%p Some pull requests have been recently merged on GitHub:
+%ul
+  - @pull_requests.each do |pull_request|
+    %li
+      %a{href: pull_request.html_url}
+        %span.number= "##{pull_request.number}"
+      %span.title= pull_request.title
+
+%p Enjoy!

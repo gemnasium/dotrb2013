@@ -1,0 +1,11 @@
+update_pull_requests:
+  cron: "0 5 * * *"
+  class: PullRequestBatchUpdater
+  args:
+  description: "Browse open pull requests and update status"
+
+email_subscribers:
+  cron: "0 7 * * *"
+  class: SubscriberBatchMailer
+  args:
+  description: "Send emails to users about merged pull requests"

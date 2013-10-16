@@ -1,0 +1,6 @@
+= render template: 'subscriptions/new'
+
+- unless @subscriptions.empty?
+  %h2 Your Pull Requests
+  %p Here are the pull requests you are currently watching:
+  = render @subscriptions
