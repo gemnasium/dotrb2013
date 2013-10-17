@@ -36,6 +36,12 @@ sudo apt-get install ruby1.9.1 \
 
 Remember that `ruby1.9.1` ubuntu package contains ruby 1.9.3.
 
+You then need to install bundler:
+
+```
+sudo gem install bundler
+```
+
 Install
 -------
 
