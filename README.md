@@ -19,7 +19,7 @@ Requirements
 
 The app is known to work with:
 
-* ruby 1.9.1
+* ruby 1.9.3
 * bundler 1.3.5
 * postgresql 9.1
 * redis 2.2
@@ -27,12 +27,14 @@ The app is known to work with:
 Here are the packages you need to make it run on ubuntu 12.04 "precise":
 
 ```
-apt-get install ruby1.9.1 \
+sudo apt-get install ruby1.9.1 \
   ruby1.9.1-dev build-essential \
   libpq-dev libv8-dev libsqlite3-dev \
   postgresql-9.1 postgresql-contrib-9.1 postgresql-client-9.1 \
   redis-server
 ```
+
+Remember that `ruby1.9.1` ubuntu package contains ruby 1.9.3.
 
 Install
 -------
