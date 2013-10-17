@@ -54,6 +54,12 @@ Install
 
 `ActionMailer` is used to send emails to the users, so you may have to set `config.action_mailer` in your `config/environments/development.rb` and `config/environments/production.rb` config files.
 
+When in development mode, we suggest you deliver the emails using [mailtrap.io](http://mailtrap.io):
+
+1. create a mailtrap account
+1. create a mailtrap inbox for this rails app
+1. setup mailtrap SMTP delivery in `development.rb` config file
+
 Go to [gemnasium/dotrb2013-docker](https://github.com/gemnasium/dotrb2013-docker) if you want to install with [docker](http://docker.io).
 
 GitHub application
