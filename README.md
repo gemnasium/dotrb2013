@@ -62,8 +62,10 @@ GitHub application
 You need credentials for your GitHub client:
 
 1. go to the [GitHub applications settings](https://github.com/settings/applications)
-1. register your application
+1. register your application with name, homepage and callback URL
 1. export your credentials
+
+If your homepage URL is `http://localhost:3000/`, then the callback URL must be set to `http://localhost:3000/auth/github/callback`.
 
 Export your credentials:
 
