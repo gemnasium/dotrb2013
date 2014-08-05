@@ -1,6 +1,8 @@
 Pull Request Notifier
 =====================
 
+WARNING! This project is not maintained anymore.
+
 You want to follow some pull requests and get notified when they are merged? Here is a GitHub Pull Request Notifier!
 
 * Sign in with your GitHub account
