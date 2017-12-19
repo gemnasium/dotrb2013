@@ -1,0 +1,285 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/resque/resque/pulls/1082
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - GitHub.com
+      date:
+      - Tue, 19 Dec 2017 00:42:59 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      status:
+      - 200 OK
+      x-ratelimit-limit:
+      - '60'
+      x-ratelimit-remaining:
+      - '45'
+      x-ratelimit-reset:
+      - '1513646476'
+      cache-control:
+      - public, max-age=60, s-maxage=60
+      vary:
+      - Accept
+      etag:
+      - W/"5613c5fbe6974fd326a2f3d0cd65e1da"
+      last-modified:
+      - Wed, 13 Dec 2017 10:11:57 GMT
+      x-github-media-type:
+      - github.v3; format=json
+      access-control-expose-headers:
+      - ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      access-control-allow-origin:
+      - "*"
+      content-security-policy:
+      - default-src 'none'
+      strict-transport-security:
+      - max-age=31536000; includeSubdomains; preload
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - deny
+      x-xss-protection:
+      - 1; mode=block
+      x-runtime-rack:
+      - '0.098601'
+      x-github-request-id:
+      - ED34:06B4:1D1DE0B:3B23678:5A386093
+    body:
+      encoding: UTF-8
+      string: '{"url":"https://api.github.com/repos/resque/resque/pulls/1082","id":6910084,"html_url":"https://github.com/resque/resque/pull/1082","diff_url":"https://github.com/resque/resque/pull/1082.diff","patch_url":"https://github.com/resque/resque/pull/1082.patch","issue_url":"https://api.github.com/repos/resque/resque/issues/1082","number":1082,"state":"closed","locked":false,"title":"100%
+        yardoc.","user":{"login":"yaauie","id":210924,"avatar_url":"https://avatars1.githubusercontent.com/u/210924?v=4","gravatar_id":"","url":"https://api.github.com/users/yaauie","html_url":"https://github.com/yaauie","followers_url":"https://api.github.com/users/yaauie/followers","following_url":"https://api.github.com/users/yaauie/following{/other_user}","gists_url":"https://api.github.com/users/yaauie/gists{/gist_id}","starred_url":"https://api.github.com/users/yaauie/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yaauie/subscriptions","organizations_url":"https://api.github.com/users/yaauie/orgs","repos_url":"https://api.github.com/users/yaauie/repos","events_url":"https://api.github.com/users/yaauie/events{/privacy}","received_events_url":"https://api.github.com/users/yaauie/received_events","type":"User","site_admin":false},"body":"100%
+        yard documentation.\n","created_at":"2013-07-13T16:56:18Z","updated_at":"2014-06-27T10:09:27Z","closed_at":"2013-07-13T16:57:20Z","merged_at":"2013-07-13T16:57:20Z","merge_commit_sha":"0ab5c04004a05e49591baef941b7e6c48646e1d9","assignee":null,"assignees":[],"requested_reviewers":[],"milestone":null,"commits_url":"https://api.github.com/repos/resque/resque/pulls/1082/commits","review_comments_url":"https://api.github.com/repos/resque/resque/pulls/1082/comments","review_comment_url":"https://api.github.com/repos/resque/resque/pulls/comments{/number}","comments_url":"https://api.github.com/repos/resque/resque/issues/1082/comments","statuses_url":"https://api.github.com/repos/resque/resque/statuses/93fe8414a04a996f8589daa0c547745b7bf8e95b","head":{"label":"yaauie:yardoc-complete","ref":"yardoc-complete","sha":"93fe8414a04a996f8589daa0c547745b7bf8e95b","user":{"login":"yaauie","id":210924,"avatar_url":"https://avatars1.githubusercontent.com/u/210924?v=4","gravatar_id":"","url":"https://api.github.com/users/yaauie","html_url":"https://github.com/yaauie","followers_url":"https://api.github.com/users/yaauie/followers","following_url":"https://api.github.com/users/yaauie/following{/other_user}","gists_url":"https://api.github.com/users/yaauie/gists{/gist_id}","starred_url":"https://api.github.com/users/yaauie/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yaauie/subscriptions","organizations_url":"https://api.github.com/users/yaauie/orgs","repos_url":"https://api.github.com/users/yaauie/repos","events_url":"https://api.github.com/users/yaauie/events{/privacy}","received_events_url":"https://api.github.com/users/yaauie/received_events","type":"User","site_admin":false},"repo":{"id":3599632,"name":"resque","full_name":"yaauie/resque","owner":{"login":"yaauie","id":210924,"avatar_url":"https://avatars1.githubusercontent.com/u/210924?v=4","gravatar_id":"","url":"https://api.github.com/users/yaauie","html_url":"https://github.com/yaauie","followers_url":"https://api.github.com/users/yaauie/followers","following_url":"https://api.github.com/users/yaauie/following{/other_user}","gists_url":"https://api.github.com/users/yaauie/gists{/gist_id}","starred_url":"https://api.github.com/users/yaauie/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yaauie/subscriptions","organizations_url":"https://api.github.com/users/yaauie/orgs","repos_url":"https://api.github.com/users/yaauie/repos","events_url":"https://api.github.com/users/yaauie/events{/privacy}","received_events_url":"https://api.github.com/users/yaauie/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/yaauie/resque","description":"Resque
+        is a Redis-backed Ruby library for creating background jobs, placing them
+        on multiple queues, and processing them later.","fork":true,"url":"https://api.github.com/repos/yaauie/resque","forks_url":"https://api.github.com/repos/yaauie/resque/forks","keys_url":"https://api.github.com/repos/yaauie/resque/keys{/key_id}","collaborators_url":"https://api.github.com/repos/yaauie/resque/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/yaauie/resque/teams","hooks_url":"https://api.github.com/repos/yaauie/resque/hooks","issue_events_url":"https://api.github.com/repos/yaauie/resque/issues/events{/number}","events_url":"https://api.github.com/repos/yaauie/resque/events","assignees_url":"https://api.github.com/repos/yaauie/resque/assignees{/user}","branches_url":"https://api.github.com/repos/yaauie/resque/branches{/branch}","tags_url":"https://api.github.com/repos/yaauie/resque/tags","blobs_url":"https://api.github.com/repos/yaauie/resque/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/yaauie/resque/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/yaauie/resque/git/refs{/sha}","trees_url":"https://api.github.com/repos/yaauie/resque/git/trees{/sha}","statuses_url":"https://api.github.com/repos/yaauie/resque/statuses/{sha}","languages_url":"https://api.github.com/repos/yaauie/resque/languages","stargazers_url":"https://api.github.com/repos/yaauie/resque/stargazers","contributors_url":"https://api.github.com/repos/yaauie/resque/contributors","subscribers_url":"https://api.github.com/repos/yaauie/resque/subscribers","subscription_url":"https://api.github.com/repos/yaauie/resque/subscription","commits_url":"https://api.github.com/repos/yaauie/resque/commits{/sha}","git_commits_url":"https://api.github.com/repos/yaauie/resque/git/commits{/sha}","comments_url":"https://api.github.com/repos/yaauie/resque/comments{/number}","issue_comment_url":"https://api.github.com/repos/yaauie/resque/issues/comments{/number}","contents_url":"https://api.github.com/repos/yaauie/resque/contents/{+path}","compare_url":"https://api.github.com/repos/yaauie/resque/compare/{base}...{head}","merges_url":"https://api.github.com/repos/yaauie/resque/merges","archive_url":"https://api.github.com/repos/yaauie/resque/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/yaauie/resque/downloads","issues_url":"https://api.github.com/repos/yaauie/resque/issues{/number}","pulls_url":"https://api.github.com/repos/yaauie/resque/pulls{/number}","milestones_url":"https://api.github.com/repos/yaauie/resque/milestones{/number}","notifications_url":"https://api.github.com/repos/yaauie/resque/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/yaauie/resque/labels{/name}","releases_url":"https://api.github.com/repos/yaauie/resque/releases{/id}","deployments_url":"https://api.github.com/repos/yaauie/resque/deployments","created_at":"2012-03-02T05:53:55Z","updated_at":"2013-08-08T18:35:11Z","pushed_at":"2013-08-08T18:30:51Z","git_url":"git://github.com/yaauie/resque.git","ssh_url":"git@github.com:yaauie/resque.git","clone_url":"https://github.com/yaauie/resque.git","svn_url":"https://github.com/yaauie/resque","homepage":"http://github.com/blog/542-introducing-resque","size":2995,"stargazers_count":1,"watchers_count":1,"language":"Ruby","has_issues":false,"has_projects":true,"has_downloads":false,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"open_issues_count":0,"license":{"key":"mit","name":"MIT
+        License","spdx_id":"MIT","url":"https://api.github.com/licenses/mit"},"forks":0,"open_issues":0,"watchers":1,"default_branch":"master"}},"base":{"label":"resque:master","ref":"master","sha":"260d4b164b95ad6b656bd6b9b4f1878423a3719f","user":{"login":"resque","id":3876747,"avatar_url":"https://avatars0.githubusercontent.com/u/3876747?v=4","gravatar_id":"","url":"https://api.github.com/users/resque","html_url":"https://github.com/resque","followers_url":"https://api.github.com/users/resque/followers","following_url":"https://api.github.com/users/resque/following{/other_user}","gists_url":"https://api.github.com/users/resque/gists{/gist_id}","starred_url":"https://api.github.com/users/resque/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/resque/subscriptions","organizations_url":"https://api.github.com/users/resque/orgs","repos_url":"https://api.github.com/users/resque/repos","events_url":"https://api.github.com/users/resque/events{/privacy}","received_events_url":"https://api.github.com/users/resque/received_events","type":"Organization","site_admin":false},"repo":{"id":275604,"name":"resque","full_name":"resque/resque","owner":{"login":"resque","id":3876747,"avatar_url":"https://avatars0.githubusercontent.com/u/3876747?v=4","gravatar_id":"","url":"https://api.github.com/users/resque","html_url":"https://github.com/resque","followers_url":"https://api.github.com/users/resque/followers","following_url":"https://api.github.com/users/resque/following{/other_user}","gists_url":"https://api.github.com/users/resque/gists{/gist_id}","starred_url":"https://api.github.com/users/resque/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/resque/subscriptions","organizations_url":"https://api.github.com/users/resque/orgs","repos_url":"https://api.github.com/users/resque/repos","events_url":"https://api.github.com/users/resque/events{/privacy}","received_events_url":"https://api.github.com/users/resque/received_events","type":"Organization","site_admin":false},"private":false,"html_url":"https://github.com/resque/resque","description":"Resque
+        is a Redis-backed Ruby library for creating background jobs, placing them
+        on multiple queues, and processing them later.","fork":false,"url":"https://api.github.com/repos/resque/resque","forks_url":"https://api.github.com/repos/resque/resque/forks","keys_url":"https://api.github.com/repos/resque/resque/keys{/key_id}","collaborators_url":"https://api.github.com/repos/resque/resque/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/resque/resque/teams","hooks_url":"https://api.github.com/repos/resque/resque/hooks","issue_events_url":"https://api.github.com/repos/resque/resque/issues/events{/number}","events_url":"https://api.github.com/repos/resque/resque/events","assignees_url":"https://api.github.com/repos/resque/resque/assignees{/user}","branches_url":"https://api.github.com/repos/resque/resque/branches{/branch}","tags_url":"https://api.github.com/repos/resque/resque/tags","blobs_url":"https://api.github.com/repos/resque/resque/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/resque/resque/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/resque/resque/git/refs{/sha}","trees_url":"https://api.github.com/repos/resque/resque/git/trees{/sha}","statuses_url":"https://api.github.com/repos/resque/resque/statuses/{sha}","languages_url":"https://api.github.com/repos/resque/resque/languages","stargazers_url":"https://api.github.com/repos/resque/resque/stargazers","contributors_url":"https://api.github.com/repos/resque/resque/contributors","subscribers_url":"https://api.github.com/repos/resque/resque/subscribers","subscription_url":"https://api.github.com/repos/resque/resque/subscription","commits_url":"https://api.github.com/repos/resque/resque/commits{/sha}","git_commits_url":"https://api.github.com/repos/resque/resque/git/commits{/sha}","comments_url":"https://api.github.com/repos/resque/resque/comments{/number}","issue_comment_url":"https://api.github.com/repos/resque/resque/issues/comments{/number}","contents_url":"https://api.github.com/repos/resque/resque/contents/{+path}","compare_url":"https://api.github.com/repos/resque/resque/compare/{base}...{head}","merges_url":"https://api.github.com/repos/resque/resque/merges","archive_url":"https://api.github.com/repos/resque/resque/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/resque/resque/downloads","issues_url":"https://api.github.com/repos/resque/resque/issues{/number}","pulls_url":"https://api.github.com/repos/resque/resque/pulls{/number}","milestones_url":"https://api.github.com/repos/resque/resque/milestones{/number}","notifications_url":"https://api.github.com/repos/resque/resque/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/resque/resque/labels{/name}","releases_url":"https://api.github.com/repos/resque/resque/releases{/id}","deployments_url":"https://api.github.com/repos/resque/resque/deployments","created_at":"2009-08-12T00:27:35Z","updated_at":"2017-12-18T21:45:45Z","pushed_at":"2017-12-18T12:20:07Z","git_url":"git://github.com/resque/resque.git","ssh_url":"git@github.com:resque/resque.git","clone_url":"https://github.com/resque/resque.git","svn_url":"https://github.com/resque/resque","homepage":"http://resque.github.io/","size":2315,"stargazers_count":8050,"watchers_count":8050,"language":"Ruby","has_issues":true,"has_projects":true,"has_downloads":false,"has_wiki":true,"has_pages":false,"forks_count":1493,"mirror_url":null,"archived":false,"open_issues_count":72,"license":{"key":"mit","name":"MIT
+        License","spdx_id":"MIT","url":"https://api.github.com/licenses/mit"},"forks":1493,"open_issues":72,"watchers":8050,"default_branch":"master"}},"_links":{"self":{"href":"https://api.github.com/repos/resque/resque/pulls/1082"},"html":{"href":"https://github.com/resque/resque/pull/1082"},"issue":{"href":"https://api.github.com/repos/resque/resque/issues/1082"},"comments":{"href":"https://api.github.com/repos/resque/resque/issues/1082/comments"},"review_comments":{"href":"https://api.github.com/repos/resque/resque/pulls/1082/comments"},"review_comment":{"href":"https://api.github.com/repos/resque/resque/pulls/comments{/number}"},"commits":{"href":"https://api.github.com/repos/resque/resque/pulls/1082/commits"},"statuses":{"href":"https://api.github.com/repos/resque/resque/statuses/93fe8414a04a996f8589daa0c547745b7bf8e95b"}},"author_association":"OWNER","merged":true,"mergeable":null,"rebaseable":null,"mergeable_state":"unknown","merged_by":{"login":"steveklabnik","id":27786,"avatar_url":"https://avatars2.githubusercontent.com/u/27786?v=4","gravatar_id":"","url":"https://api.github.com/users/steveklabnik","html_url":"https://github.com/steveklabnik","followers_url":"https://api.github.com/users/steveklabnik/followers","following_url":"https://api.github.com/users/steveklabnik/following{/other_user}","gists_url":"https://api.github.com/users/steveklabnik/gists{/gist_id}","starred_url":"https://api.github.com/users/steveklabnik/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/steveklabnik/subscriptions","organizations_url":"https://api.github.com/users/steveklabnik/orgs","repos_url":"https://api.github.com/users/steveklabnik/repos","events_url":"https://api.github.com/users/steveklabnik/events{/privacy}","received_events_url":"https://api.github.com/users/steveklabnik/received_events","type":"User","site_admin":false},"comments":2,"review_comments":0,"maintainer_can_modify":false,"commits":1,"additions":27,"deletions":3,"changed_files":6}'
+    http_version: 
+  recorded_at: Tue, 19 Dec 2017 00:43:01 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/resque/resque/pulls/9999
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+  response:
+    status:
+      code: 404
+      message: 
+    headers:
+      server:
+      - GitHub.com
+      date:
+      - Tue, 19 Dec 2017 00:44:28 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      status:
+      - 404 Not Found
+      x-ratelimit-limit:
+      - '60'
+      x-ratelimit-remaining:
+      - '44'
+      x-ratelimit-reset:
+      - '1513646476'
+      x-github-media-type:
+      - github.v3; format=json
+      access-control-expose-headers:
+      - ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      access-control-allow-origin:
+      - "*"
+      content-security-policy:
+      - default-src 'none'
+      strict-transport-security:
+      - max-age=31536000; includeSubdomains; preload
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - deny
+      x-xss-protection:
+      - 1; mode=block
+      x-runtime-rack:
+      - '0.020816'
+      x-github-request-id:
+      - ED53:06B4:1D1FBE8:3B27614:5A3860EC
+    body:
+      encoding: UTF-8
+      string: '{"message":"Not Found","documentation_url":"https://developer.github.com/v3/pulls/#get-a-single-pull-request"}'
+    http_version: 
+  recorded_at: Tue, 19 Dec 2017 00:44:30 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/resque/resque/pulls/1131
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - GitHub.com
+      date:
+      - Tue, 19 Dec 2017 00:45:16 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      status:
+      - 200 OK
+      x-ratelimit-limit:
+      - '60'
+      x-ratelimit-remaining:
+      - '43'
+      x-ratelimit-reset:
+      - '1513646476'
+      cache-control:
+      - public, max-age=60, s-maxage=60
+      vary:
+      - Accept
+      etag:
+      - W/"91b7620c133e6a3dcf9b27215756f776"
+      last-modified:
+      - Thu, 23 Nov 2017 04:09:38 GMT
+      x-github-media-type:
+      - github.v3; format=json
+      access-control-expose-headers:
+      - ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      access-control-allow-origin:
+      - "*"
+      content-security-policy:
+      - default-src 'none'
+      strict-transport-security:
+      - max-age=31536000; includeSubdomains; preload
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - deny
+      x-xss-protection:
+      - 1; mode=block
+      x-runtime-rack:
+      - '0.218858'
+      x-github-request-id:
+      - ED5E:06B4:1D20B8F:3B2987C:5A38611B
+    body:
+      encoding: UTF-8
+      string: '{"url":"https://api.github.com/repos/resque/resque/pulls/1131","id":8719904,"html_url":"https://github.com/resque/resque/pull/1131","diff_url":"https://github.com/resque/resque/pull/1131.diff","patch_url":"https://github.com/resque/resque/pull/1131.patch","issue_url":"https://api.github.com/repos/resque/resque/issues/1131","number":1131,"state":"closed","locked":false,"title":"Fix
+        readme for #1130","user":{"login":"cade","id":3403,"avatar_url":"https://avatars1.githubusercontent.com/u/3403?v=4","gravatar_id":"","url":"https://api.github.com/users/cade","html_url":"https://github.com/cade","followers_url":"https://api.github.com/users/cade/followers","following_url":"https://api.github.com/users/cade/following{/other_user}","gists_url":"https://api.github.com/users/cade/gists{/gist_id}","starred_url":"https://api.github.com/users/cade/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cade/subscriptions","organizations_url":"https://api.github.com/users/cade/orgs","repos_url":"https://api.github.com/users/cade/repos","events_url":"https://api.github.com/users/cade/events{/privacy}","received_events_url":"https://api.github.com/users/cade/received_events","type":"User","site_admin":false},"body":"Tried
+        to attach PR directly to issue with hub, but apparently I''m doing something
+        wrong...\n","created_at":"2013-09-30T21:07:52Z","updated_at":"2014-07-11T16:44:19Z","closed_at":"2013-12-02T23:50:26Z","merged_at":"2013-12-02T23:50:26Z","merge_commit_sha":"8bf593d58b5aaee2650a5e875593379e2fa2378d","assignee":null,"assignees":[],"requested_reviewers":[],"milestone":null,"commits_url":"https://api.github.com/repos/resque/resque/pulls/1131/commits","review_comments_url":"https://api.github.com/repos/resque/resque/pulls/1131/comments","review_comment_url":"https://api.github.com/repos/resque/resque/pulls/comments{/number}","comments_url":"https://api.github.com/repos/resque/resque/issues/1131/comments","statuses_url":"https://api.github.com/repos/resque/resque/statuses/406fd0d5414a8c3bef98215d4f44446965458335","head":{"label":"cade:fix-readme","ref":"fix-readme","sha":"406fd0d5414a8c3bef98215d4f44446965458335","user":{"login":"cade","id":3403,"avatar_url":"https://avatars1.githubusercontent.com/u/3403?v=4","gravatar_id":"","url":"https://api.github.com/users/cade","html_url":"https://github.com/cade","followers_url":"https://api.github.com/users/cade/followers","following_url":"https://api.github.com/users/cade/following{/other_user}","gists_url":"https://api.github.com/users/cade/gists{/gist_id}","starred_url":"https://api.github.com/users/cade/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cade/subscriptions","organizations_url":"https://api.github.com/users/cade/orgs","repos_url":"https://api.github.com/users/cade/repos","events_url":"https://api.github.com/users/cade/events{/privacy}","received_events_url":"https://api.github.com/users/cade/received_events","type":"User","site_admin":false},"repo":{"id":12326792,"name":"resque","full_name":"cade/resque","owner":{"login":"cade","id":3403,"avatar_url":"https://avatars1.githubusercontent.com/u/3403?v=4","gravatar_id":"","url":"https://api.github.com/users/cade","html_url":"https://github.com/cade","followers_url":"https://api.github.com/users/cade/followers","following_url":"https://api.github.com/users/cade/following{/other_user}","gists_url":"https://api.github.com/users/cade/gists{/gist_id}","starred_url":"https://api.github.com/users/cade/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cade/subscriptions","organizations_url":"https://api.github.com/users/cade/orgs","repos_url":"https://api.github.com/users/cade/repos","events_url":"https://api.github.com/users/cade/events{/privacy}","received_events_url":"https://api.github.com/users/cade/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/cade/resque","description":"Resque
+        is a Redis-backed Ruby library for creating background jobs, placing them
+        on multiple queues, and processing them later.","fork":true,"url":"https://api.github.com/repos/cade/resque","forks_url":"https://api.github.com/repos/cade/resque/forks","keys_url":"https://api.github.com/repos/cade/resque/keys{/key_id}","collaborators_url":"https://api.github.com/repos/cade/resque/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/cade/resque/teams","hooks_url":"https://api.github.com/repos/cade/resque/hooks","issue_events_url":"https://api.github.com/repos/cade/resque/issues/events{/number}","events_url":"https://api.github.com/repos/cade/resque/events","assignees_url":"https://api.github.com/repos/cade/resque/assignees{/user}","branches_url":"https://api.github.com/repos/cade/resque/branches{/branch}","tags_url":"https://api.github.com/repos/cade/resque/tags","blobs_url":"https://api.github.com/repos/cade/resque/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/cade/resque/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/cade/resque/git/refs{/sha}","trees_url":"https://api.github.com/repos/cade/resque/git/trees{/sha}","statuses_url":"https://api.github.com/repos/cade/resque/statuses/{sha}","languages_url":"https://api.github.com/repos/cade/resque/languages","stargazers_url":"https://api.github.com/repos/cade/resque/stargazers","contributors_url":"https://api.github.com/repos/cade/resque/contributors","subscribers_url":"https://api.github.com/repos/cade/resque/subscribers","subscription_url":"https://api.github.com/repos/cade/resque/subscription","commits_url":"https://api.github.com/repos/cade/resque/commits{/sha}","git_commits_url":"https://api.github.com/repos/cade/resque/git/commits{/sha}","comments_url":"https://api.github.com/repos/cade/resque/comments{/number}","issue_comment_url":"https://api.github.com/repos/cade/resque/issues/comments{/number}","contents_url":"https://api.github.com/repos/cade/resque/contents/{+path}","compare_url":"https://api.github.com/repos/cade/resque/compare/{base}...{head}","merges_url":"https://api.github.com/repos/cade/resque/merges","archive_url":"https://api.github.com/repos/cade/resque/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/cade/resque/downloads","issues_url":"https://api.github.com/repos/cade/resque/issues{/number}","pulls_url":"https://api.github.com/repos/cade/resque/pulls{/number}","milestones_url":"https://api.github.com/repos/cade/resque/milestones{/number}","notifications_url":"https://api.github.com/repos/cade/resque/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/cade/resque/labels{/name}","releases_url":"https://api.github.com/repos/cade/resque/releases{/id}","deployments_url":"https://api.github.com/repos/cade/resque/deployments","created_at":"2013-08-23T15:52:17Z","updated_at":"2014-07-17T20:46:44Z","pushed_at":"2014-07-17T20:54:23Z","git_url":"git://github.com/cade/resque.git","ssh_url":"git@github.com:cade/resque.git","clone_url":"https://github.com/cade/resque.git","svn_url":"https://github.com/cade/resque","homepage":"http://github.com/blog/542-introducing-resque","size":6977,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":false,"has_projects":true,"has_downloads":false,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"open_issues_count":0,"license":{"key":"mit","name":"MIT
+        License","spdx_id":"MIT","url":"https://api.github.com/licenses/mit"},"forks":0,"open_issues":0,"watchers":0,"default_branch":"master"}},"base":{"label":"resque:1-x-stable","ref":"1-x-stable","sha":"6177bd147290554d6c7e356117c9bf3c356ae7ba","user":{"login":"resque","id":3876747,"avatar_url":"https://avatars0.githubusercontent.com/u/3876747?v=4","gravatar_id":"","url":"https://api.github.com/users/resque","html_url":"https://github.com/resque","followers_url":"https://api.github.com/users/resque/followers","following_url":"https://api.github.com/users/resque/following{/other_user}","gists_url":"https://api.github.com/users/resque/gists{/gist_id}","starred_url":"https://api.github.com/users/resque/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/resque/subscriptions","organizations_url":"https://api.github.com/users/resque/orgs","repos_url":"https://api.github.com/users/resque/repos","events_url":"https://api.github.com/users/resque/events{/privacy}","received_events_url":"https://api.github.com/users/resque/received_events","type":"Organization","site_admin":false},"repo":{"id":275604,"name":"resque","full_name":"resque/resque","owner":{"login":"resque","id":3876747,"avatar_url":"https://avatars0.githubusercontent.com/u/3876747?v=4","gravatar_id":"","url":"https://api.github.com/users/resque","html_url":"https://github.com/resque","followers_url":"https://api.github.com/users/resque/followers","following_url":"https://api.github.com/users/resque/following{/other_user}","gists_url":"https://api.github.com/users/resque/gists{/gist_id}","starred_url":"https://api.github.com/users/resque/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/resque/subscriptions","organizations_url":"https://api.github.com/users/resque/orgs","repos_url":"https://api.github.com/users/resque/repos","events_url":"https://api.github.com/users/resque/events{/privacy}","received_events_url":"https://api.github.com/users/resque/received_events","type":"Organization","site_admin":false},"private":false,"html_url":"https://github.com/resque/resque","description":"Resque
+        is a Redis-backed Ruby library for creating background jobs, placing them
+        on multiple queues, and processing them later.","fork":false,"url":"https://api.github.com/repos/resque/resque","forks_url":"https://api.github.com/repos/resque/resque/forks","keys_url":"https://api.github.com/repos/resque/resque/keys{/key_id}","collaborators_url":"https://api.github.com/repos/resque/resque/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/resque/resque/teams","hooks_url":"https://api.github.com/repos/resque/resque/hooks","issue_events_url":"https://api.github.com/repos/resque/resque/issues/events{/number}","events_url":"https://api.github.com/repos/resque/resque/events","assignees_url":"https://api.github.com/repos/resque/resque/assignees{/user}","branches_url":"https://api.github.com/repos/resque/resque/branches{/branch}","tags_url":"https://api.github.com/repos/resque/resque/tags","blobs_url":"https://api.github.com/repos/resque/resque/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/resque/resque/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/resque/resque/git/refs{/sha}","trees_url":"https://api.github.com/repos/resque/resque/git/trees{/sha}","statuses_url":"https://api.github.com/repos/resque/resque/statuses/{sha}","languages_url":"https://api.github.com/repos/resque/resque/languages","stargazers_url":"https://api.github.com/repos/resque/resque/stargazers","contributors_url":"https://api.github.com/repos/resque/resque/contributors","subscribers_url":"https://api.github.com/repos/resque/resque/subscribers","subscription_url":"https://api.github.com/repos/resque/resque/subscription","commits_url":"https://api.github.com/repos/resque/resque/commits{/sha}","git_commits_url":"https://api.github.com/repos/resque/resque/git/commits{/sha}","comments_url":"https://api.github.com/repos/resque/resque/comments{/number}","issue_comment_url":"https://api.github.com/repos/resque/resque/issues/comments{/number}","contents_url":"https://api.github.com/repos/resque/resque/contents/{+path}","compare_url":"https://api.github.com/repos/resque/resque/compare/{base}...{head}","merges_url":"https://api.github.com/repos/resque/resque/merges","archive_url":"https://api.github.com/repos/resque/resque/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/resque/resque/downloads","issues_url":"https://api.github.com/repos/resque/resque/issues{/number}","pulls_url":"https://api.github.com/repos/resque/resque/pulls{/number}","milestones_url":"https://api.github.com/repos/resque/resque/milestones{/number}","notifications_url":"https://api.github.com/repos/resque/resque/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/resque/resque/labels{/name}","releases_url":"https://api.github.com/repos/resque/resque/releases{/id}","deployments_url":"https://api.github.com/repos/resque/resque/deployments","created_at":"2009-08-12T00:27:35Z","updated_at":"2017-12-18T21:45:45Z","pushed_at":"2017-12-18T12:20:07Z","git_url":"git://github.com/resque/resque.git","ssh_url":"git@github.com:resque/resque.git","clone_url":"https://github.com/resque/resque.git","svn_url":"https://github.com/resque/resque","homepage":"http://resque.github.io/","size":2315,"stargazers_count":8050,"watchers_count":8050,"language":"Ruby","has_issues":true,"has_projects":true,"has_downloads":false,"has_wiki":true,"has_pages":false,"forks_count":1493,"mirror_url":null,"archived":false,"open_issues_count":72,"license":{"key":"mit","name":"MIT
+        License","spdx_id":"MIT","url":"https://api.github.com/licenses/mit"},"forks":1493,"open_issues":72,"watchers":8050,"default_branch":"master"}},"_links":{"self":{"href":"https://api.github.com/repos/resque/resque/pulls/1131"},"html":{"href":"https://github.com/resque/resque/pull/1131"},"issue":{"href":"https://api.github.com/repos/resque/resque/issues/1131"},"comments":{"href":"https://api.github.com/repos/resque/resque/issues/1131/comments"},"review_comments":{"href":"https://api.github.com/repos/resque/resque/pulls/1131/comments"},"review_comment":{"href":"https://api.github.com/repos/resque/resque/pulls/comments{/number}"},"commits":{"href":"https://api.github.com/repos/resque/resque/pulls/1131/commits"},"statuses":{"href":"https://api.github.com/repos/resque/resque/statuses/406fd0d5414a8c3bef98215d4f44446965458335"}},"author_association":"CONTRIBUTOR","merged":true,"mergeable":false,"rebaseable":false,"mergeable_state":"dirty","merged_by":{"login":"yaauie","id":210924,"avatar_url":"https://avatars1.githubusercontent.com/u/210924?v=4","gravatar_id":"","url":"https://api.github.com/users/yaauie","html_url":"https://github.com/yaauie","followers_url":"https://api.github.com/users/yaauie/followers","following_url":"https://api.github.com/users/yaauie/following{/other_user}","gists_url":"https://api.github.com/users/yaauie/gists{/gist_id}","starred_url":"https://api.github.com/users/yaauie/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yaauie/subscriptions","organizations_url":"https://api.github.com/users/yaauie/orgs","repos_url":"https://api.github.com/users/yaauie/repos","events_url":"https://api.github.com/users/yaauie/events{/privacy}","received_events_url":"https://api.github.com/users/yaauie/received_events","type":"User","site_admin":false},"comments":2,"review_comments":0,"maintainer_can_modify":false,"commits":1,"additions":4,"deletions":4,"changed_files":1}'
+    http_version: 
+  recorded_at: Tue, 19 Dec 2017 00:45:17 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/resque/resque/pulls/1497
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - GitHub.com
+      date:
+      - Tue, 19 Dec 2017 00:47:24 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      status:
+      - 200 OK
+      x-ratelimit-limit:
+      - '60'
+      x-ratelimit-remaining:
+      - '40'
+      x-ratelimit-reset:
+      - '1513646476'
+      cache-control:
+      - public, max-age=60, s-maxage=60
+      vary:
+      - Accept
+      etag:
+      - W/"df4a5521515fd8633a859f78e11b99c0"
+      last-modified:
+      - Sun, 10 Dec 2017 15:32:05 GMT
+      x-github-media-type:
+      - github.v3; format=json
+      access-control-expose-headers:
+      - ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      access-control-allow-origin:
+      - "*"
+      content-security-policy:
+      - default-src 'none'
+      strict-transport-security:
+      - max-age=31536000; includeSubdomains; preload
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - deny
+      x-xss-protection:
+      - 1; mode=block
+      x-runtime-rack:
+      - '0.114229'
+      x-github-request-id:
+      - EDC8:06B3:10C81E9:24DD645:5A38619C
+    body:
+      encoding: UTF-8
+      string: '{"url":"https://api.github.com/repos/resque/resque/pulls/1497","id":81032659,"html_url":"https://github.com/resque/resque/pull/1497","diff_url":"https://github.com/resque/resque/pull/1497.diff","patch_url":"https://github.com/resque/resque/pull/1497.patch","issue_url":"https://api.github.com/repos/resque/resque/issues/1497","number":1497,"state":"open","locked":false,"title":"Fixed
+        reverse proxy prefix for overview and stats","user":{"login":"razvanphp","id":4599319,"avatar_url":"https://avatars0.githubusercontent.com/u/4599319?v=4","gravatar_id":"","url":"https://api.github.com/users/razvanphp","html_url":"https://github.com/razvanphp","followers_url":"https://api.github.com/users/razvanphp/followers","following_url":"https://api.github.com/users/razvanphp/following{/other_user}","gists_url":"https://api.github.com/users/razvanphp/gists{/gist_id}","starred_url":"https://api.github.com/users/razvanphp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/razvanphp/subscriptions","organizations_url":"https://api.github.com/users/razvanphp/orgs","repos_url":"https://api.github.com/users/razvanphp/repos","events_url":"https://api.github.com/users/razvanphp/events{/privacy}","received_events_url":"https://api.github.com/users/razvanphp/received_events","type":"User","site_admin":false},"body":"This
+        fixes PR #1375 since the overview page and stats page were not using the prefix.\n\nI
+        did not add anything, just reverted the extra changes, works good like this
+        for us.\n","created_at":"2016-08-11T21:17:21Z","updated_at":"2017-05-12T13:02:29Z","closed_at":null,"merged_at":null,"merge_commit_sha":"240bc0cd2dbf938fe6e4144d2747584bf2f811bc","assignee":null,"assignees":[],"requested_reviewers":[],"milestone":null,"commits_url":"https://api.github.com/repos/resque/resque/pulls/1497/commits","review_comments_url":"https://api.github.com/repos/resque/resque/pulls/1497/comments","review_comment_url":"https://api.github.com/repos/resque/resque/pulls/comments{/number}","comments_url":"https://api.github.com/repos/resque/resque/issues/1497/comments","statuses_url":"https://api.github.com/repos/resque/resque/statuses/07e2ba5ed32b8f647afba5024695c05350d7208a","head":{"label":"razvanphp:fix-reverse-proxy-prefix","ref":"fix-reverse-proxy-prefix","sha":"07e2ba5ed32b8f647afba5024695c05350d7208a","user":{"login":"razvanphp","id":4599319,"avatar_url":"https://avatars0.githubusercontent.com/u/4599319?v=4","gravatar_id":"","url":"https://api.github.com/users/razvanphp","html_url":"https://github.com/razvanphp","followers_url":"https://api.github.com/users/razvanphp/followers","following_url":"https://api.github.com/users/razvanphp/following{/other_user}","gists_url":"https://api.github.com/users/razvanphp/gists{/gist_id}","starred_url":"https://api.github.com/users/razvanphp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/razvanphp/subscriptions","organizations_url":"https://api.github.com/users/razvanphp/orgs","repos_url":"https://api.github.com/users/razvanphp/repos","events_url":"https://api.github.com/users/razvanphp/events{/privacy}","received_events_url":"https://api.github.com/users/razvanphp/received_events","type":"User","site_admin":false},"repo":{"id":65500183,"name":"resque","full_name":"razvanphp/resque","owner":{"login":"razvanphp","id":4599319,"avatar_url":"https://avatars0.githubusercontent.com/u/4599319?v=4","gravatar_id":"","url":"https://api.github.com/users/razvanphp","html_url":"https://github.com/razvanphp","followers_url":"https://api.github.com/users/razvanphp/followers","following_url":"https://api.github.com/users/razvanphp/following{/other_user}","gists_url":"https://api.github.com/users/razvanphp/gists{/gist_id}","starred_url":"https://api.github.com/users/razvanphp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/razvanphp/subscriptions","organizations_url":"https://api.github.com/users/razvanphp/orgs","repos_url":"https://api.github.com/users/razvanphp/repos","events_url":"https://api.github.com/users/razvanphp/events{/privacy}","received_events_url":"https://api.github.com/users/razvanphp/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/razvanphp/resque","description":"Resque
+        is a Redis-backed Ruby library for creating background jobs, placing them
+        on multiple queues, and processing them later.","fork":true,"url":"https://api.github.com/repos/razvanphp/resque","forks_url":"https://api.github.com/repos/razvanphp/resque/forks","keys_url":"https://api.github.com/repos/razvanphp/resque/keys{/key_id}","collaborators_url":"https://api.github.com/repos/razvanphp/resque/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/razvanphp/resque/teams","hooks_url":"https://api.github.com/repos/razvanphp/resque/hooks","issue_events_url":"https://api.github.com/repos/razvanphp/resque/issues/events{/number}","events_url":"https://api.github.com/repos/razvanphp/resque/events","assignees_url":"https://api.github.com/repos/razvanphp/resque/assignees{/user}","branches_url":"https://api.github.com/repos/razvanphp/resque/branches{/branch}","tags_url":"https://api.github.com/repos/razvanphp/resque/tags","blobs_url":"https://api.github.com/repos/razvanphp/resque/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/razvanphp/resque/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/razvanphp/resque/git/refs{/sha}","trees_url":"https://api.github.com/repos/razvanphp/resque/git/trees{/sha}","statuses_url":"https://api.github.com/repos/razvanphp/resque/statuses/{sha}","languages_url":"https://api.github.com/repos/razvanphp/resque/languages","stargazers_url":"https://api.github.com/repos/razvanphp/resque/stargazers","contributors_url":"https://api.github.com/repos/razvanphp/resque/contributors","subscribers_url":"https://api.github.com/repos/razvanphp/resque/subscribers","subscription_url":"https://api.github.com/repos/razvanphp/resque/subscription","commits_url":"https://api.github.com/repos/razvanphp/resque/commits{/sha}","git_commits_url":"https://api.github.com/repos/razvanphp/resque/git/commits{/sha}","comments_url":"https://api.github.com/repos/razvanphp/resque/comments{/number}","issue_comment_url":"https://api.github.com/repos/razvanphp/resque/issues/comments{/number}","contents_url":"https://api.github.com/repos/razvanphp/resque/contents/{+path}","compare_url":"https://api.github.com/repos/razvanphp/resque/compare/{base}...{head}","merges_url":"https://api.github.com/repos/razvanphp/resque/merges","archive_url":"https://api.github.com/repos/razvanphp/resque/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/razvanphp/resque/downloads","issues_url":"https://api.github.com/repos/razvanphp/resque/issues{/number}","pulls_url":"https://api.github.com/repos/razvanphp/resque/pulls{/number}","milestones_url":"https://api.github.com/repos/razvanphp/resque/milestones{/number}","notifications_url":"https://api.github.com/repos/razvanphp/resque/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/razvanphp/resque/labels{/name}","releases_url":"https://api.github.com/repos/razvanphp/resque/releases{/id}","deployments_url":"https://api.github.com/repos/razvanphp/resque/deployments","created_at":"2016-08-11T20:41:10Z","updated_at":"2016-08-11T20:41:13Z","pushed_at":"2016-08-11T21:13:08Z","git_url":"git://github.com/razvanphp/resque.git","ssh_url":"git@github.com:razvanphp/resque.git","clone_url":"https://github.com/razvanphp/resque.git","svn_url":"https://github.com/razvanphp/resque","homepage":"http://resque.github.io/","size":2197,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":false,"has_projects":true,"has_downloads":false,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master"}},"base":{"label":"resque:master","ref":"master","sha":"c295da9de0034b20ce79600e9f54fb279695f522","user":{"login":"resque","id":3876747,"avatar_url":"https://avatars0.githubusercontent.com/u/3876747?v=4","gravatar_id":"","url":"https://api.github.com/users/resque","html_url":"https://github.com/resque","followers_url":"https://api.github.com/users/resque/followers","following_url":"https://api.github.com/users/resque/following{/other_user}","gists_url":"https://api.github.com/users/resque/gists{/gist_id}","starred_url":"https://api.github.com/users/resque/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/resque/subscriptions","organizations_url":"https://api.github.com/users/resque/orgs","repos_url":"https://api.github.com/users/resque/repos","events_url":"https://api.github.com/users/resque/events{/privacy}","received_events_url":"https://api.github.com/users/resque/received_events","type":"Organization","site_admin":false},"repo":{"id":275604,"name":"resque","full_name":"resque/resque","owner":{"login":"resque","id":3876747,"avatar_url":"https://avatars0.githubusercontent.com/u/3876747?v=4","gravatar_id":"","url":"https://api.github.com/users/resque","html_url":"https://github.com/resque","followers_url":"https://api.github.com/users/resque/followers","following_url":"https://api.github.com/users/resque/following{/other_user}","gists_url":"https://api.github.com/users/resque/gists{/gist_id}","starred_url":"https://api.github.com/users/resque/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/resque/subscriptions","organizations_url":"https://api.github.com/users/resque/orgs","repos_url":"https://api.github.com/users/resque/repos","events_url":"https://api.github.com/users/resque/events{/privacy}","received_events_url":"https://api.github.com/users/resque/received_events","type":"Organization","site_admin":false},"private":false,"html_url":"https://github.com/resque/resque","description":"Resque
+        is a Redis-backed Ruby library for creating background jobs, placing them
+        on multiple queues, and processing them later.","fork":false,"url":"https://api.github.com/repos/resque/resque","forks_url":"https://api.github.com/repos/resque/resque/forks","keys_url":"https://api.github.com/repos/resque/resque/keys{/key_id}","collaborators_url":"https://api.github.com/repos/resque/resque/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/resque/resque/teams","hooks_url":"https://api.github.com/repos/resque/resque/hooks","issue_events_url":"https://api.github.com/repos/resque/resque/issues/events{/number}","events_url":"https://api.github.com/repos/resque/resque/events","assignees_url":"https://api.github.com/repos/resque/resque/assignees{/user}","branches_url":"https://api.github.com/repos/resque/resque/branches{/branch}","tags_url":"https://api.github.com/repos/resque/resque/tags","blobs_url":"https://api.github.com/repos/resque/resque/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/resque/resque/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/resque/resque/git/refs{/sha}","trees_url":"https://api.github.com/repos/resque/resque/git/trees{/sha}","statuses_url":"https://api.github.com/repos/resque/resque/statuses/{sha}","languages_url":"https://api.github.com/repos/resque/resque/languages","stargazers_url":"https://api.github.com/repos/resque/resque/stargazers","contributors_url":"https://api.github.com/repos/resque/resque/contributors","subscribers_url":"https://api.github.com/repos/resque/resque/subscribers","subscription_url":"https://api.github.com/repos/resque/resque/subscription","commits_url":"https://api.github.com/repos/resque/resque/commits{/sha}","git_commits_url":"https://api.github.com/repos/resque/resque/git/commits{/sha}","comments_url":"https://api.github.com/repos/resque/resque/comments{/number}","issue_comment_url":"https://api.github.com/repos/resque/resque/issues/comments{/number}","contents_url":"https://api.github.com/repos/resque/resque/contents/{+path}","compare_url":"https://api.github.com/repos/resque/resque/compare/{base}...{head}","merges_url":"https://api.github.com/repos/resque/resque/merges","archive_url":"https://api.github.com/repos/resque/resque/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/resque/resque/downloads","issues_url":"https://api.github.com/repos/resque/resque/issues{/number}","pulls_url":"https://api.github.com/repos/resque/resque/pulls{/number}","milestones_url":"https://api.github.com/repos/resque/resque/milestones{/number}","notifications_url":"https://api.github.com/repos/resque/resque/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/resque/resque/labels{/name}","releases_url":"https://api.github.com/repos/resque/resque/releases{/id}","deployments_url":"https://api.github.com/repos/resque/resque/deployments","created_at":"2009-08-12T00:27:35Z","updated_at":"2017-12-18T21:45:45Z","pushed_at":"2017-12-18T12:20:07Z","git_url":"git://github.com/resque/resque.git","ssh_url":"git@github.com:resque/resque.git","clone_url":"https://github.com/resque/resque.git","svn_url":"https://github.com/resque/resque","homepage":"http://resque.github.io/","size":2315,"stargazers_count":8050,"watchers_count":8050,"language":"Ruby","has_issues":true,"has_projects":true,"has_downloads":false,"has_wiki":true,"has_pages":false,"forks_count":1493,"mirror_url":null,"archived":false,"open_issues_count":72,"license":{"key":"mit","name":"MIT
+        License","spdx_id":"MIT","url":"https://api.github.com/licenses/mit"},"forks":1493,"open_issues":72,"watchers":8050,"default_branch":"master"}},"_links":{"self":{"href":"https://api.github.com/repos/resque/resque/pulls/1497"},"html":{"href":"https://github.com/resque/resque/pull/1497"},"issue":{"href":"https://api.github.com/repos/resque/resque/issues/1497"},"comments":{"href":"https://api.github.com/repos/resque/resque/issues/1497/comments"},"review_comments":{"href":"https://api.github.com/repos/resque/resque/pulls/1497/comments"},"review_comment":{"href":"https://api.github.com/repos/resque/resque/pulls/comments{/number}"},"commits":{"href":"https://api.github.com/repos/resque/resque/pulls/1497/commits"},"statuses":{"href":"https://api.github.com/repos/resque/resque/statuses/07e2ba5ed32b8f647afba5024695c05350d7208a"}},"author_association":"NONE","merged":false,"mergeable":true,"rebaseable":true,"mergeable_state":"clean","merged_by":null,"comments":7,"review_comments":0,"maintainer_can_modify":false,"commits":1,"additions":3,"deletions":7,"changed_files":1}'
+    http_version: 
+  recorded_at: Tue, 19 Dec 2017 00:47:26 GMT
+recorded_with: VCR 2.6.0

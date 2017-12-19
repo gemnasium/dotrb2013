@@ -8,7 +8,7 @@ describe PullRequestFetcher do
     when :merged
       'https://api.github.com/repos/resque/resque/pulls/1082'
     when :open
-      'https://api.github.com/repos/resque/resque/pulls/1131'
+      'https://api.github.com/repos/resque/resque/pulls/1497'
     when :missing
       'https://api.github.com/repos/resque/resque/pulls/9999'
     end
@@ -16,7 +16,7 @@ describe PullRequestFetcher do
 
   describe "#metadata_for" do
     subject do
-      VCR.use_cassette('github') do
+      VCR.use_cassette('github', :record => :new_episodes) do
         fetcher.metadata_for url
       end
     end
@@ -31,7 +31,7 @@ describe PullRequestFetcher do
             "html_url"=>"https://github.com/resque/resque/pull/1082",
             "number"=>1082,
             "title"=>"100% yardoc.",
-            "body"=>"100% yard documentation.",
+            "body"=>"100% yard documentation.\n",
             "merged_at"=>"2013-07-13T16:57:20Z"
           }
         )
@@ -49,7 +49,7 @@ describe PullRequestFetcher do
 
   describe "#merged_at_for" do
     subject do
-      VCR.use_cassette('github') do
+      VCR.use_cassette('github', :record => :new_episodes) do
         fetcher.merged_at_for url
       end
     end
