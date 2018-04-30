@@ -1,7 +1,7 @@
 Pull Request Notifier
 =====================
 
-WARNING! This project is not maintained anymore.
+WARNING! This project is not maintained anymore. test
 
 You want to follow some pull requests and get notified when they are merged? Here is a GitHub Pull Request Notifier!
 
